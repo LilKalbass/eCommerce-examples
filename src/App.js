@@ -1,6 +1,5 @@
 import {Pages} from './components/home/pages/Pages';
 
-
 function App() {
   return (
     <>

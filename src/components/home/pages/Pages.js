@@ -10,9 +10,9 @@ export const Pages = () => {
             <div className = ""></div>
             <Router>
                 <Header/>
-                {/*    <Switch>*/}
-                {/*        <Route exact path= '/' component = {Home}/>*/}
-                {/*    </Switch>*/}
+                    <Switch>
+                        <Route exact path= '/' component = {Home}/>
+                    </Switch>
                 {/*<Footer/>*/}
             </Router>
         </>

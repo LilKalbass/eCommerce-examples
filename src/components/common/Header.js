@@ -24,8 +24,8 @@ export const Header = () => {
                 <div className = "container">
                     <nav>
                         <div className = "toggle">
-                            <button onClick={() => setMobile(!mobile)}>
-                                {mobile ? <AiOutlineClose className='close heIcon' /> : <AiOutlineMenu className='open heIcon' />}
+                            <button onClick = {() => setMobile(!mobile)}>
+                                {mobile ? <AiOutlineClose className = "close heIcon"/> : <AiOutlineMenu className = "open heIcon"/>}
                             </button>
                         </div>
                         <div className = "left">
@@ -51,7 +51,7 @@ export const Header = () => {
                             <AiOutlineHeart className = "userIcon heIcon"/>
                         </div>
                         <div className = "right_card">
-                            <button className = "button" onClick={() => setCartList(!cartList)}>
+                            <button className = "button" onClick = {() => setCartList(!cartList)}>
                                 <BsBagCheck className = "cartIcon heIcon"/> My Cart (0)
                             </button>
                         </div>
