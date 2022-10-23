@@ -85,6 +85,7 @@ p {
       font-size: $lg;
       @include transition;
       margin: 5px;
+      margin-bottom: 50px;
 
       &:hover {
         background: $primary;
@@ -153,7 +154,7 @@ footer {
       z-index: 99999;
     }
     .button {
-      @include positions(absolute, 13%, none, none, 29%, none, none);
+      @include positions(absolute, 20%, none, none, 33%, none, none);
       @include width(40px, 40px, linear-gradient(90deg, #ff4267 40%, #ff4b2e 100%), $white, 40px, none);
       z-index: 999999;
     }

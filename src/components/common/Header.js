@@ -14,7 +14,7 @@ export const Header = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            window.scrollY > 70 ? setIsActive(true) : setIsActive(false);
+            window.scrollY > 80 ? setIsActive(true) : setIsActive(false);
         });
     });
 
@@ -51,8 +51,8 @@ export const Header = () => {
                             <AiOutlineHeart className = "userIcon heIcon"/>
                         </div>
                         <div className = "right_card">
-                            <button className = "button" onClick = {() => setCartList(!cartList)}>
-                                <BsBagCheck className = "cartIcon heIcon"/> My Cart (0)
+                            <button className = {isActive ? "activeBB" : "button"} onClick = {() => setCartList(!cartList)}>
+                                <BsBagCheck className = {isActive ? "activeB" : "cartIcon heIcon"}/> My Cart (0)
                             </button>
                         </div>
                     </div>
