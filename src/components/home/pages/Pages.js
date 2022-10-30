@@ -13,7 +13,7 @@ export const Pages = () => {
                     <Switch>
                         <Route exact path= '/' component = {Home}/>
                     </Switch>
-                {/*<Footer/>*/}
+                <Footer/>
             </Router>
         </>
     );

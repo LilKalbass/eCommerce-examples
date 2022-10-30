@@ -23,9 +23,9 @@ export const Header = () => {
             <header className = {isActive ? "activeH" : ""}>
                 <div className = "container">
                     <nav>
-                        <div className = "toggle">
+                        <div  className = "toggle">
                             <button onClick = {() => setMobile(!mobile)}>
-                                {mobile ? <AiOutlineClose className = "close heIcon"/> : <AiOutlineMenu className = "open heIcon"/>}
+                                {mobile ? <AiOutlineClose className = "close heIcon"/ >  : <AiOutlineMenu className = "open heIcon"/>}
                             </button>
                         </div>
                         <div className = "left">

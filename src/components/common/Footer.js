@@ -2,6 +2,8 @@ import React from "react";
 
 export const Footer = () => {
     return (
-        <div>Footer</div>
+        <>
+            <footer><p>Copyright &copy; GOSTO all rights reserved.</p></footer>
+        </>
     );
 }

@@ -129,8 +129,9 @@ p {
 }
 footer {
   text-align: center;
+  border-radius: 2px;
   @include pa_ma($xl-2, $large 0 0 0);
-  background: $dark;
+  background: #9d8453;
   p {
     color: $light;
   }
