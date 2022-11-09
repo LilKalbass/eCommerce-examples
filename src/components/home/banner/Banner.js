@@ -3,8 +3,8 @@ import {banner} from '../../assets/data/data';
 
 export const Banner = () => {
     return (
-        <section className = "banner">
-            <div className = "posts">
+        <section className = "banner" >
+            <div className = "posts" style={{marginLeft: "6%"}}>
                 {banner.map((items) => (
                     <div className = "post" key = {items.id}>
                         <div className = "content">
